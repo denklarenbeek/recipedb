@@ -1,0 +1,17 @@
+.modal {
+    background-color: white;
+    width: 80%;
+    padding: 20px;
+    margin: auto;
+}
+
+.form-section,
+.form-section form {
+    width: 100%;
+}
+
+.divider {
+    margin: 30px 0px 15px;
+    height: 1px;
+    background-color: rgba(0, 0, 0, 0.12);
+}

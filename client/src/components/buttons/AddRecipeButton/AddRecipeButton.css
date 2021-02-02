@@ -1,0 +1,10 @@
+.btn-cta.floating.round {
+    height: 56px;
+    width: 56px;
+    border-radius: 50%;
+    font-size: 24px;
+    bottom: 80px;
+    right: 16px;
+    position: fixed;
+    font-size: 24px;
+}

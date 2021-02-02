@@ -1,0 +1,24 @@
+[
+  {
+    "title": "Tiramisu",
+    "desc": "Heel lekkere tiramisu gemaakt tijdens het kerstdiner",
+    "method": [
+      { "step": 1, "desc": "Voeg 1 en 2 samen" },
+      { "step": 2, "desc": "Voeg 3 en 4 samen" },
+      { "step": 3, "desc": "eet de zooi uiteindelijk op" }
+    ],
+    "ingredients": [
+      {
+        "unit": "400gram",
+        "ingredient": "Bloemkool"
+      },
+      {
+        "unit": "2el",
+        "ingredient": "Grove peper"
+      }
+    ],
+    "tips": "Ik zou er een extra peper in stoppen",
+    "video_url": "https://www.youtube.com/watch?v=eq1Yxr8gmTs",
+    "rating": 4
+  }
+]

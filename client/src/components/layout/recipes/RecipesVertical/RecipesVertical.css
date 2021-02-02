@@ -1,0 +1,26 @@
+.recipe_container .recipe_container_title {
+  padding: 24px 24px 0 24px;
+}
+
+.recipe_container_title h2 {
+  margin: 0;
+  background: linear-gradient(to right, #013d3f, var(--second-font-color));
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.recipe_container .recipes {
+  overflow-x: auto;
+  overflow-y: hidden;
+  display: grid;
+  grid-auto-flow: column;
+  gap: 12px;
+  outline: none;
+  padding: 24px;
+  scroll-padding: 0px 24px;
+  scroll-snap-type: x mandatory;
+}
+
+.recipe_container .recipes::-webkit-scrollbar {
+  display: none;
+}

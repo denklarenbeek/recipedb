@@ -1,0 +1,93 @@
+.input-group {
+    position: relative;
+    width: 100%;
+    margin: 10px 0px 20px;
+}
+
+.input-group.col-2 {
+    width: 45%;
+    display: inline-block;
+}
+
+.col-2.mg-r {
+    margin-right: 10%;
+}
+
+.input-group label {
+    position: absolute;
+    top: 2px;
+    font-size: 14px;
+    left: 20px;
+    background: white;
+    padding: 0px 4px;
+    top: 16px;
+    left: 22px;
+    font-size: 16px;
+    transition: all 0.2s ease-out;
+}
+
+.form-control {
+    padding: 16px 12px 16px 16px;
+    border: 1px solid rgba(0, 0, 0, 0.12);
+    border-radius: 4px;
+    font-size: 16px;
+    width: 100%;
+    color: rgba(0, 0, 0, 0.8);
+}
+
+.form-control:focus {
+    outline: none;
+    border: 2px solid var(--second-font-color);
+}
+
+.form-control + label {
+    text-transform: capitalize;
+}
+
+.form-control:focus + label,
+.form-control.has-value + label {
+    top: -8px;
+    font-size: 14px;
+    left: 20px;
+    color: rgba(0, 0, 0, 0.6);
+}
+
+.form-control:focus ~ .form-suffix,
+.form-control.has-value ~ .form-suffix {
+    opacity: 1;
+    transition: opacity 0.2s ease-out;
+}
+
+.form-helper {
+    font-size: 10px;
+    color: rgba(0, 0, 0, 0.6);
+    max-width: 100%;
+}
+
+.form-suffix {
+    opacity: 0;
+    position: absolute;
+    top: 18px;
+    right: 12px;
+    font-size: 12px;
+    color: rgba(0, 0, 0, 0.6);
+}
+
+input[type='number']::-webkit-outer-spin-button,
+input[type='number']::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+input[type='submit'] {
+    border: none;
+    padding-left: 40px;
+    padding-right: 20px;
+}
+
+.submit-prefix {
+    position: absolute;
+    top: 12px;
+    left: 12px;
+    color: white;
+}

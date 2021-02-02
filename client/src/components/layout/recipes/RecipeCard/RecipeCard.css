@@ -1,0 +1,40 @@
+.recipe_card {
+  width: 272px;
+  height: 100%;
+  border-top-left-radius: 16px;
+  border-top-right-radius: 16px;
+  border-radius: 16px;
+  overflow: hidden;
+  box-shadow: 0 1px 1px #d2d2d2;
+  scroll-snap-align: start !important;
+}
+
+.recipe_card a {
+  text-decoration: none;
+  color: var(--main-color);
+  padding-right: 24px;
+}
+
+.recipe_card_jumbo {
+  width: 100%;
+}
+
+.recipe_card_jumbo img {
+  width: 100%;
+}
+
+.recipe_card_content {
+  padding: 12px 12px;
+}
+
+.recipe_card_content .card_title {
+  font-weight: bold;
+  font-size: 16px;
+  margin-bottom: 8px;
+}
+
+.recipe_card_content .card_description {
+  font-weight: 400;
+  font-size: 14px;
+  color: var(--main-light-font-color);
+}
